@@ -16,4 +16,5 @@ book= new Book('x017', 'Head first HTML', 'Enigma', 2015, 'Jution');
 library.add(book);
 
 console.log(library.searchByTitle('Head first PHP'));
+library.remove('x015');
 console.log(library.getAll());
