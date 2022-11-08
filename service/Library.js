@@ -6,6 +6,10 @@ class Library {
   add(book) {
     this.books.push(book);
   }
+
+  getAll() {
+    return this.books;
+  }
 }
 
 export default Library;

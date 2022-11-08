@@ -4,4 +4,9 @@ import Library from "./service/Library.js"
 let library= new Library();
 let book= new Book('x012', 'javascript for dummies', 'O\'rely', 2010, 'Jution');
 library.add(book);
-console.log(library);
+book= new Book('x013', 'java for dummies', 'Enigma', 2011, 'Doni');
+library.add(book);
+book= new Book('x014', 'Head first spring', 'Enigma', 2012, 'Jution');
+library.add(book);
+
+console.log(library.getAll());
