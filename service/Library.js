@@ -10,6 +10,11 @@ class Library {
   getAll() {
     return this.books;
   }
+
+  searchByTitle(title) {
+    return this.books.filter(book=> 
+      book.title.toLowerCase()===title.toLowerCase());
+  }
 }
 
 export default Library;
